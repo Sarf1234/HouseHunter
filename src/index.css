@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.roudedborder{
+    border-right: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    left: -40px;
+    top:-60px;
+    z-index: -1;
+    opacity: 0.3;
+    filter: blur(60px);
+}
+
+/* .iimageurl{
+    background: url(./assets/heroimage.jpg);
+} */
+
+.element {
+    mix-blend-mode: screen; /* Replace with your desired blending mode */
+    /* Other CSS properties and styles for your element */
+  }
