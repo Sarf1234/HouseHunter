@@ -14,10 +14,10 @@ const Navbar = () => {
       </div>
       <div>
         <ul className='list-none flex justify-end gap-8 items-center'>
-          <li className='border  text-md border-opacity-30 text-white/90 bg-white/10 px-3 py-1 border-slate-100 rounded-[1.5rem]'><Link>About Us</Link></li>
-          <li className='border text-md border-opacity-30 text-white/90 bg-white/10 px-3 py-1 border-slate-100 rounded-[1.5rem]'><Link>Article</Link></li>
-          <li className='border text-md border-opacity-30 text-white/90 bg-white/10 px-3 py-1 border-slate-100 rounded-[1.5rem]'><Link>Property</Link></li>
-          <li className='border text-md border-opacity-30 text-black bg-green-50 px-4 py-2 border-slate-100 rounded-[1.5rem] font-semibold'><button>Sign Up!</button></li>
+          <li className='border  text-md border-opacity-30 text-white/90 bg-white/10 px-3 py-1 border-slate-100 rounded-[1.5rem] hover:text-black ease-in-out duration-300 hover:bg-green-200 cursor-pointer'><Link>About Us</Link></li>
+          <li className='border text-md border-opacity-30 text-white/90 bg-white/10 px-3 py-1 border-slate-100 rounded-[1.5rem] hover:text-black ease-in-out duration-300 hover:bg-green-200 cursor-pointer'><Link>Article</Link></li>
+          <li className='border text-md border-opacity-30 text-white/90 bg-white/10 px-3 py-1 border-slate-100 rounded-[1.5rem] hover:text-black ease-in-out duration-300 hover:bg-green-200 cursor-pointer'><Link>Property</Link></li>
+          <li className='border text-md border-opacity-30 text-black bg-green-50 px-4 py-2 border-slate-100 rounded-[1.5rem] font-semibold hover:text-white ease-in-out duration-300 hover:bg-green-200 cursor-pointer'><button>Sign Up!</button></li>
         </ul>
       </div>
     </div>
