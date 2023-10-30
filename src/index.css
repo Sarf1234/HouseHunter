@@ -21,3 +21,7 @@
     mix-blend-mode: screen; /* Replace with your desired blending mode */
     /* Other CSS properties and styles for your element */
   }
+
+  *{
+    overflow-x: hidden;
+  }

@@ -17,12 +17,12 @@ const Heropage = () => {
                 <div className="h-full w-full flex justify-center items-center">
                     <div className=" ml-20 w-[480px] h-[400px] mt-20">
                         <div className="h-1/3 ">
-                           <h1 className="text-3xl w-5/6 leading-16 text-[#1B1C57] font-bold uppercase" style={{fontFamily:"Lexend"}}>
+                           <h1 className=" overflow-y-hidden text-3xl w-5/6 leading-16 text-[#1B1C57] font-bold uppercase" style={{fontFamily:"Lexend"}}>
                               find the place to
                               live <span className="stroke-black text-[38px] font-sans" style={{"-webkit-text-stroke":" 1px black","-webkit-text-fill-color": "transparent"}}>your dreams</span> easily here   
                            </h1>
                         </div>
-                        <div className="h-1/3 py-2">
+                        <div className="h-1/3 py-2 overflow-y-hidden">
                            <p className="text-base opacity-75 text-[#626687]" style={{fontFamily:"Lexend"}}>Everything you need about finding your place to live will be here, where it will be easier for you</p>
                            <div className="border my-4 rounded-[14px]">
                              <div className="flex justify-between items-center">
