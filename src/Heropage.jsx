@@ -1,4 +1,4 @@
-import Navbar from "./navbar";
+import Navbar from "./Navbar";
 import logoimage from './assets/logo3.jpg'
 import image1 from './assets/traveloka_logo2.png'
 import image2 from './assets/traveloka_logo3.png'
