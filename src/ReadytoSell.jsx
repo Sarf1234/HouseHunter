@@ -6,10 +6,10 @@ const ReadytoSell = () => {
     <div className='h-96 w-screen mt-20'>
             <div className='w-5/6 flex gap-10 m-auto h-full'>
                 <div className='w-5/10'>
-                    <div className='flex items-center gap-2'>
+                    {/* <div className='flex items-center gap-2'>
                         <div className='bg-yellow-500 h-[2px] w-8'></div>
                         <p className='text-yellow-500 text-sm'>Ready to Sell!</p>
-                    </div>
+                    </div> */}
                     <div className='text-[32px] my-2 font-bold text-[#1B1C57]'>Let’s tour and see our house!</div>  
                     <p className='text-[#626687] opacity-75 w-4/6'>Houses recommended by our partners that have been curated to become the home of your dreams!</p>
                       <div>
