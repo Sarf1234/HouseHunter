@@ -12,7 +12,6 @@
     opacity: 0.3;
     filter: blur(60px);
 }
-
 /* .iimageurl{
     background: url(./assets/heroimage.jpg);
 } */
@@ -22,6 +21,8 @@
     /* Other CSS properties and styles for your element */
   }
 
-  *{
-    overflow-x: hidden;
-  }
+  /* Add these styles to your CSS or SCSS file */
+.hamburger-menu {
+  transition: transform 0.2s ease-in-out;
+}
+

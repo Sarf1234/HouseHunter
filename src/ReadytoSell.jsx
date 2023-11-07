@@ -3,20 +3,20 @@ import imageback1 from './assets/Rectangle17.png'
 
 const ReadytoSell = () => {
   return (
-    <div className='h-96 w-screen mt-20'>
-            <div className='w-5/6 flex gap-10 m-auto h-full'>
+    <div className='md:h-96 h-auto w-screen md:mt-20 mt-10'>
+            <div className='md:w-5/6 w-full px-4 md:px-4 flex flex-wrap flex-col flex-col-reverse md:flex-row md:flex-nowrap m-auto h-full'>
                 <div className='w-5/10'>
                     <div className='flex items-center gap-2'>
                         <div className='bg-yellow-500 h-[2px] w-8'></div>
-                        <p className='text-yellow-500 text-sm'>Ready to Sell!</p>
+                        <p className='text-yellow-500 text-sm mt-5 md:mt-0'>Ready to Sell!</p>
                     </div>
                     <div className='text-[32px] my-2 font-bold text-[#1B1C57]'>Let’s tour and see our house!</div>  
-                    <p className='text-[#626687] opacity-75 w-4/6'>Houses recommended by our partners that have been curated to become the home of your dreams!</p>
+                    <p className='text-[#626687] opacity-75 w-full md:w-4/6'>Houses recommended by our partners that have been curated to become the home of your dreams!</p>
                       <div>
                         <div className='my-3'>
                           <p className='text-[#1B1C57] text-base font-semibold opacity-75 w-5/6' style={{fontFamily:"Lexend"}}>House Detail</p>
                         </div>
-                        <div className='my-4  w-3/6 flex justify-between items-center '>
+                        <div className='my-4 w-full md:w-3/6 flex justify-between items-center '>
                             <div className='flex justify-between items-center  w-32'>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                                   <path d="M23.8 14.7692C26.0713 14.7692 28 16.6618 28 19.0769V22.7692H26.2V24H25V22.7692H7V24H5.8V22.7692H4V19.0769C4 16.7474 5.86341 14.7692 8.2 14.7692H23.8ZM22.6 8C24.2133 8 25.6004 9.33021 25.6 11.0769L25.6004 14.017C25.0548 13.7102 24.4443 13.5385 23.8 13.5385L22.6 13.5378C22.6 12.4839 21.7586 11.6923 20.8 11.6923H17.2C16.739 11.6923 16.3185 11.87 16.0001 12.1623C15.682 11.8703 15.2613 11.6923 14.8 11.6923H11.2C10.2061 11.6923 9.40033 12.5185 9.4 13.5378L8.2 13.5385C7.55587 13.5385 6.9456 13.7101 6.4 14.0167V11.0769C6.4 9.4223 7.69394 8 9.4 8H22.6ZM14.8 12.9228C15.1256 12.9228 15.4 13.2305 15.4 13.5385L10.6 13.5378C10.6 13.1613 10.8923 12.9231 11.2 12.9231L14.8 12.9228ZM20.8 12.9272C21.1395 12.9228 21.3997 13.2225 21.4 13.5378H16.6C16.6 13.156 16.8923 12.9231 17.2 12.9231L20.8 12.9272Z" fill="#888B97"/>
@@ -38,7 +38,7 @@ const ReadytoSell = () => {
                                <p>2 Bathrooms</p>
                             </div>
                         </div>
-                        <div className='my-4  w-3/6 flex justify-between items-center '>
+                        <div className='my-4 w-full md:w-3/6 flex justify-between items-center '>
                             <div className='flex justify-start items-center  w-32'>
                               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                                 <path d="M27.3838 10.6286L17.357 4.37929C16.5309 3.86917 15.4665 3.87438 14.6453 4.39024L4.60814 10.6338C3.98488 11.0255 3.81267 11.8251 4.22271 12.4197C4.63329 13.0144 5.47086 13.1792 6.09466 12.7869L16.0104 6.61852L25.9142 12.7922C26.1416 12.9325 26.3959 12.9987 26.6473 12.9987C27.0913 12.9987 27.5243 12.7916 27.7829 12.4109C28.1885 11.8131 28.0092 11.0161 27.3838 10.6286Z" fill="#888B97"/>
@@ -54,10 +54,10 @@ const ReadytoSell = () => {
                                <p>2 Floors</p>
                             </div>
                         </div>
-                        <div className='border w-4/6'></div>
+                        <div className='border w-full mt-10 md:mt-0 md:w-4/6'></div>
                     </div>
                 </div>
-                <div className=' border w-6/10 flex justify-between items-center'>
+                <div className='w-5/10 flex justify-between items-center'>
                    <img src={imageback1} />
                 </div>
             </div>
